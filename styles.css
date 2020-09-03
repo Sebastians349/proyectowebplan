@@ -9,6 +9,11 @@ incorporaciones de HTML5:
 atributos incorporados en HTML5
 * Un elemento multimedial (video, audio)*/
 
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+
+body {
+	font-family: 'Reem Kufi', sans-serif;
+}
 
 header, section, footer {
 	width: 960px;
@@ -28,7 +33,6 @@ Los colores que uso en los Tasks de Plan! (ver cremita o mas claro para body)
 
 header {
 	height: 50px;
-	background-color: #6DC5AB;
 
 }
 
@@ -36,7 +40,7 @@ header {
 	width: 200px;
 	height: 40px;
 	background-color: #8CA5BA;
-	float: right;
+	float: left;
 	margin-top: 5px;
 	margin-right: 5px;
 
@@ -45,7 +49,7 @@ header {
 #botonera_principal {
 	width: 430px;
 	height: 40px;
-	float: left;
+	float: right;
 	margin-top: 5px;
 	margin-left: 5px;
 

@@ -1,3 +1,15 @@
+/*
+* Completar el desarrollo de contenido 
+(texto, imágenes, etc) de la página de inicio.
+* Crear una nueva sección 
+(de las planteadas en la botonera principal) 
+dentro del sitio que utilice alguna de las 
+incorporaciones de HTML5:
+* Un formulario, aplicando los nuevos valores de 
+atributos incorporados en HTML5
+* Un elemento multimedial (video, audio)*/
+
+
 header, section, footer {
 	width: 960px;
 	margin-right: auto;
@@ -33,11 +45,31 @@ header {
 #botonera_principal {
 	width: 430px;
 	height: 40px;
-	background-color: #3D5466;
 	float: left;
 	margin-top: 5px;
 	margin-left: 5px;
 
+}
+
+ul {
+	display: inline;
+	list-style-type: none;
+	padding: 0;
+	margin: 10;
+}
+
+ul li {
+	display: inline-block;
+
+}
+
+ul li a {
+	color: ;
+}
+
+ul li a:hover {
+	background-color: white;
+	color: white;
 }
 
 #contenido_index {

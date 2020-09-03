@@ -23,6 +23,7 @@ header, section, footer {
 
 }
 
+
 /* Paleta a futuro para botoneras y contraste. 
 Los colores que uso en los Tasks de Plan! (ver cremita o mas claro para body) 
 #577590 
@@ -39,27 +40,36 @@ header {
 #marca {
 	width: 200px;
 	height: 40px;
-	background-color: #8CA5BA;
 	float: left;
 	margin-top: 5px;
 	margin-right: 5px;
 
 }
 
+.img_logo {
+   position: relative;
+   width: 100%; height:100%;
+   background-image: url('images/logotransOK.png');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+
+}
+
 #botonera_principal {
 	width: 430px;
-	height: 40px;
+	height: 50px;
 	float: right;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-top: 10px;
+	margin-right: 5px;
 
 }
 
 ul {
 	display: inline;
 	list-style-type: none;
-	padding: 0;
-	margin: 10;
+	float: right;
+		
 }
 
 ul li {
@@ -68,12 +78,15 @@ ul li {
 }
 
 ul li a {
-	color: ;
+	text-decoration: none;
+
 }
 
 ul li a:hover {
-	background-color: white;
-	color: white;
+	background-color: #9BD4C6;
+	border: solid 0.5px;
+	border-radius: 0.25em;
+	padding: 0.3em;
 }
 
 #contenido_index {

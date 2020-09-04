@@ -60,20 +60,26 @@ header {
 	width: 430px;
 	height: 50px;
 	margin-top: 0.625em;
-	margin-right: : 1em;
+	margin-right: 0;
 	float: right;
 
+}
+
+.boton {
+	margin-left: 10px;
 }
 
 ul {
 	display: inline;
 	list-style-type: none;
+	padding: 1em;
+	
 				
 }
 
 ul li {
 	display: inline-block;
-	
+		
 }
 
 ul li a {
@@ -85,9 +91,8 @@ ul li a {
 ul li a:hover {
 	background-color: #577590;
 	color: white;
-	border: solid 0.5px;
 	border-radius: 0.3em;
-	padding: 0.8em;
+	padding: 0.2em;
 	
 }
 

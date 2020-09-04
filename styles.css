@@ -11,9 +11,10 @@ atributos incorporados en HTML5
 
 Paleta a futuro para botoneras y contraste. 
 Los colores que uso en los Tasks de Plan! (ver cremita o mas claro para body) 
-#577590 
-#43AA8B
-#90BE6D
+#577590 queen blue
+#43AA8B zomp
+#90BE6D pistachio
+#F0F9F7 cream mint
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
@@ -32,6 +33,8 @@ header, section, footer {
 
 header {
 	height: 50px;
+	background-color: #F0F9F7;
+
 
 }
 
@@ -60,7 +63,6 @@ header {
 	margin-top: 10px;
 	margin-right: 0;
 	float: right;
-
 
 }
 
@@ -105,7 +107,7 @@ ul li a:active {
 
 #contenido_index {
 	height: 720px;
-	background-color: #6DC5AB;
+	background-color: #F0F9F7;
 }
 
 #banner_principal {
@@ -144,11 +146,14 @@ ul li a:active {
 #msj_bienvenida {
 	width: 500px;
 	height: 35px;
-	background-color: #C9DFB9;
 	clear: both;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5px;
+	margin-top: 1em;
+	font-size: 1.15em;
+	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
 
 
 }

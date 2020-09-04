@@ -59,34 +59,36 @@ header {
 #botonera_principal {
 	width: 430px;
 	height: 50px;
+	margin-top: 0.625em;
+	margin-right: : 1em;
 	float: right;
-	margin-top: 10px;
-	margin-right: 5px;
 
 }
 
 ul {
 	display: inline;
 	list-style-type: none;
-	float: right;
-		
+				
 }
 
 ul li {
 	display: inline-block;
-
+	
 }
 
 ul li a {
 	text-decoration: none;
+	font-size: 1.2em;
 
 }
 
 ul li a:hover {
-	background-color: #9BD4C6;
+	background-color: #577590;
+	color: white;
 	border: solid 0.5px;
-	border-radius: 0.25em;
-	padding: 0.3em;
+	border-radius: 0.3em;
+	padding: 0.8em;
+	
 }
 
 #contenido_index {

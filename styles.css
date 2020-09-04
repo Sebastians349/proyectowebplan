@@ -10,11 +10,11 @@ atributos incorporados en HTML5
 * Un elemento multimedial (video, audio)
 
 Paleta a futuro para botoneras y contraste. 
-Los colores que uso en los Tasks de Plan! (ver cremita o mas claro para body) 
+Los colores que uso en los Tasks de Plan!  
 #577590 queen blue
 #43AA8B zomp
 #90BE6D pistachio
-#F0F9F7 cream mint
+#F0F9F7 cream mint {Body}
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
@@ -33,7 +33,7 @@ header, section, footer {
 
 header {
 	height: 50px;
-	background-color: #F0F9F7;
+	background-color: #577590;
 
 
 }
@@ -44,6 +44,7 @@ header {
 	float: left;
 	margin-top: 5px;
 	margin-right: 5px;
+	filter: invert(1);
 
 }
 
@@ -88,7 +89,7 @@ ul li {
 ul li a {
 	text-decoration: none;
 	font-size: 1.2em;
-	color: #43AA8B;
+	color: white;
 
 }
 
@@ -101,7 +102,7 @@ ul li a:hover {
 }
 
 ul li a:active {
-	color: #43aa8b;
+	color: #90BE6D;
 }
 
 #contenido_index {
@@ -268,39 +269,61 @@ ul li a:active {
 	margin-right: 10px;
 }
 
+/********** FOOTER *******************/
+
+
+
 footer {
 	height: 30px;
 	background-color: #577590;
 
 }
 
+
+
 #logo_chico /*con bajada*/{
-	width: 150px;
+	width: 250px;
 	height: 20px;
-	background-color: #F94144;
+	background-image: url(images/logotransOK.png);
+	background-position: left;
+   	background-repeat: no-repeat;
+   	background-size: contain;
 	float: left;
-	margin-left: 10px;
 	margin-top: 5px;
+	margin-left: 5px;
+	filter: invert(1);
 
 }
 
+h6 {
+	margin: 0 0 0 90px;
+	font-size: xx-small;
+	padding: 1em;
+	filter: invert(0);
+	
+}
+
 #direccion {
-	width: 295px;
+	width: 195px;
 	height: 20px;
-	background-color: #FB888A;
 	float: left;
-	margin-left: 175px;
-	margin-top: 5px;
+	margin-left: 150px;
+	margin-top: 10px;
+	color: white;
+	font-size: small;
 }
 
 #redes_icon {
 	width: 200px;
 	height: 20px;
-	background-color: #8A0507;
 	float: right;
-	margin-right: 10px;
-	margin-top: 5px;
+	filter: invert(1);
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	text-align: right;
 }
+
+
 
 
 

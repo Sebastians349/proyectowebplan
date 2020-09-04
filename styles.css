@@ -65,6 +65,7 @@ header {
 	margin-right: 0;
 	float: right;
 
+
 }
 
 .boton {
@@ -88,7 +89,7 @@ ul li {
 
 ul li a {
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 
 }
@@ -107,7 +108,7 @@ ul li a:active {
 
 #contenido_index {
 	height: 730px;
-	background-color: grey;
+	background-color: #F0F9F7;
 }
 
 #banner_principal {
@@ -152,9 +153,11 @@ ul li a:active {
 	margin-right: auto;
 	margin-top: 1em;
 	font-size: 1.15em;
-	line-height: 50px;
+	line-height: 40px;
 	text-align: center;
 	text-transform: uppercase;
+	border-radius: 0.1em;
+	box-shadow:  0.1px 0.5px 5px grey;
 
 
 }
@@ -166,7 +169,7 @@ ul li a:active {
 	width: 295px;
 	height: 200px;
 	border-radius: 0.125em;
-	box-shadow:  1px 1px 5px black;
+	box-shadow:  0.1px 0.5px 5px grey;
 }
 
 .detalle_h3 {

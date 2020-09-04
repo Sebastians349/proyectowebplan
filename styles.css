@@ -60,8 +60,8 @@ header {
 
 #botonera_principal {
 	width: 430px;
-	height: 50px;
-	margin-top: 10px;
+	height: 40px;
+	margin-top: 5px;
 	margin-right: 0;
 	float: right;
 
@@ -79,7 +79,6 @@ ul {
 	list-style-type: none;
 	padding: 1em;
 		
-				
 }
 
 ul li {
@@ -95,16 +94,17 @@ ul li a {
 }
 
 ul li a:hover {
-	background-color: #577590;
-	color: white;
-	border-radius: 0.3em;
-	padding: 0.25em;
+	background-color: #43AA8B;
+	border-radius: 0.225em;
+	padding: 0.3em;
 
 }
 
 ul li a:active {
 	color: #90BE6D;
 }
+
+
 
 #contenido_index {
 	height: 730px;
@@ -157,7 +157,7 @@ ul li a:active {
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 0.1em;
-	box-shadow:  0.1px 0.5px 5px grey;
+	box-shadow:  0.1px 0.3px 5px grey;
 
 
 }

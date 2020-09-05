@@ -1,13 +1,4 @@
 /*
-* Completar el desarrollo de contenido 
-(texto, imágenes, etc) de la página de inicio.
-* Crear una nueva sección 
-(de las planteadas en la botonera principal) 
-dentro del sitio que utilice alguna de las 
-incorporaciones de HTML5:
-* Un formulario, aplicando los nuevos valores de 
-atributos incorporados en HTML5
-* Un elemento multimedial (video, audio)
 
 Paleta a futuro para botoneras y contraste. 
 Los colores que uso en los Tasks de Plan!  
@@ -118,7 +109,7 @@ ul li a:active {
 }
 
 #banner_principal {
-	width: 740px;
+	width: 520px;
 	height: 230px;
 	background-color: #99D6C9;
 	float: left;
@@ -128,27 +119,52 @@ ul li a:active {
 
 }
 
-
-#txt_banner {
-	width: 200px;
-	height: 80px;
-	background-color: #1D493F;
-	margin-left: 20px;
-	margin-top: 120px;
-
+img {
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
 }
 
 /* eventualmente un login para mayoristas, tambien? */
-#newsletter {
-	width: 190px;
+#formu_news {
+	width: 290px;
 	height: 230px;
-	background-color: #1D493C;
+	background-color: #577590;
+	color: #F0F9F7;
+	border-radius: 0.5em;
 	float:right;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	margin-right: 10px; 
+	margin-right: 10px;
+	margin-left: 10px; 
 
-	
+}
+
+.boton_envio {
+	width: 80px;
+	background-color: #90BE6D;
+	color: #F0F9F7 ;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: medium;
+
+}
+
+.boton_envio:active {
+	color: #90BE6D;
+}
+
+p {
+	text-align: justify-all;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-size: large;
+}
+
+input {
+	width: 250px;
+	margin-left: 0.9em;
+	padding: 0.1em;
+	border-radius: 0.2em;
 }
 
 #msj_bienvenida {

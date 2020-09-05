@@ -143,6 +143,7 @@ ul li a:active {
 	color: black;
 	font-family: 'Reem Kufi', sans-serif;
 	font-size: medium;
+	font-weight: bolder;
 
 }
 
@@ -159,7 +160,6 @@ p {
 
 input {
 	width: 260px;
-	
 	margin-left: 0.9em;
 	padding: 0.1em;
 	border-radius: 0.2em;
@@ -341,7 +341,8 @@ h6 {
 	height: 20px;
 	float: right;
 	filter: invert(1);
-	margin-top: 0.5em;
+	margin-top: 0.3em;
+	margin-left: 0.1em;
 	margin-right: 0.5em;
 	text-align: right;
 }

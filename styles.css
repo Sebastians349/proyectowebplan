@@ -29,12 +29,6 @@ header {
 
 }
 
-#video_scrum{
-	margin-left: 10em;
-	margin-top: 10em;
-	
-	}
-
 #marca {
 	width: 200px;
 	height: 40px;
@@ -100,7 +94,6 @@ ul li a:active {
 }
 
 
-
 #contenido_index {
 	height: 730px;
 	background-color: #F0F9F7;
@@ -109,6 +102,18 @@ ul li a:active {
 #contenido_video {
 	height: 730px;
 	background-color: #F0F9F7;
+}
+
+#video_scrum {
+	float: left;
+	width: 460px;
+
+}
+
+#vid_home {
+	float: left;
+	width: 460px;
+
 }
 
 #banner_principal {

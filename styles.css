@@ -104,22 +104,23 @@ ul li a:active {
 	background-color: #F0F9F7;
 }
 
-#video_scrum {
-	float: left;
-	width: 460px;
-
-}
 
 #vid_home {
-	float: left;
-	width: 460px;
+	width: 660px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
+	border: solid 1px #577590;
+	border-radius: 10px;
+	object-fit: contain;
 
 }
+
 
 #banner_principal {
 	width: 640px;
 	height: 230px;
-	background-image: url("images/banner.png");
+	background-image: url("images/bannerscrum.png");
 	background-position: center;
 	background-size: cover; 
 	float: left;

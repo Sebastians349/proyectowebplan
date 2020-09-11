@@ -53,25 +53,20 @@ header {
 	margin-top: 5px;
 	margin-right: 0;
 	float: right;
-
 }
 
 .boton {
 	margin-left: 4px;
 }
 
-
-
 ul {
 	display: inline;
 	list-style-type: none;
 	padding: 16px;
-		
 }
 
 ul li {
 	display: inline-block;
-		
 }
 
 ul li a {
@@ -79,14 +74,12 @@ ul li a {
 	font-size: 16px;
 	color: white;
 	padding: 3px;
-
-
 }
 
 ul li a:hover {
 	background-color: #43AA8B;
 	border-radius: 4px;
-	padding: 10px;
+	padding: 10 4px;
 
 	
 }

@@ -52,6 +52,7 @@ header {
 	height: 40px;
 	margin-top: 5px;
 	margin-right: 0;
+	margin-left: 0;
 	float: right;
 }
 
@@ -59,10 +60,23 @@ header {
 	margin-left: 4px;
 }
 
+#carrito {
+	box-sizing: content-box;
+	filter: invert(1); 
+	margin-left: 55px;
+}
+
+#carrito a:hover {
+	padding-top: 25px;
+	background-color: #43AA8B;
+	filter: invert(1);
+}
+
+
 ul {
 	display: inline;
 	list-style-type: none;
-	padding: 16px;
+	
 }
 
 ul li {
@@ -73,13 +87,13 @@ ul li a {
 	text-decoration: none;
 	font-size: 16px;
 	color: white;
-	padding: 3px;
+	padding: 10 4 0 4;
 }
 
 ul li a:hover {
 	background-color: #43AA8B;
 	border-radius: 4px;
-	padding: 10 4px;
+	padding: 10 4 0 4;
 
 	
 }

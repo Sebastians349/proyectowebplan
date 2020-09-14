@@ -10,6 +10,10 @@ Los colores que uso en los Tasks de Plan!
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Reem Kufi', sans-serif;
 }
@@ -113,7 +117,7 @@ ul li a:active {
 	color: #90BE6D;
 }
 
- /*BOTONERA */
+ 
 
 #contenido_index {
 	height: 730px;
@@ -340,7 +344,7 @@ input {
 
 
 footer {
-	height: 30px;
+	height: 40px;
 	background-color: #577590;
 
 }
@@ -348,12 +352,8 @@ footer {
 
 
 #logo_chico /*con bajada*/{
-	width: 250px;
-	height: 20px;
-	background-image: url(images/logotransOK.png);
-	background-position: left;
-   	background-repeat: no-repeat;
-   	background-size: contain;
+	
+	width: 230px;
 	float: left;
 	margin-top: 5px;
 	margin-left: 5px;
@@ -361,11 +361,17 @@ footer {
 
 }
 
+#logo_peque {
+	width: 35%;
+	float: left;
+	margin-top: 12px;
+}
+
 h6 {
-	margin: 0 0 0 90px;
+	float: left;
 	font-size: xx-small;
-	padding: 9px;
-	filter: invert(0);
+	margin-left: 10px;
+	
 	
 }
 
@@ -373,30 +379,33 @@ h6 {
 	width: 195px;
 	height: 30px;
 	float: left;
-	margin-left: 150px;
-	margin-top: 10px;
+	margin-left: 180px;
+	margin-top: 23px;
 	color: white;
 	font-size: small;
 }
 
 #botonera_redes {
 	width: 150px;
-	height: 30px;
+	height: 40px;
 	float: right;
 	filter: invert(1);
+	margin: 0;
+	padding: 0;
+	
 	
 }
 
 #botonera_redes img {
-	width: 20px;
-	margin-top: 5px;
-
+	width: 25px;
+	margin-top: 8px;
+	padding: auto;
+	vertical-align: bottom;
 }
-
 
 #botonera_redes ul {
 	display: inline;
-	
+
 }
 
 #botonera_redes ul li {
@@ -405,23 +414,19 @@ h6 {
 }
 	
 #botonera_redes ul li a {
-	text-decoration: none;
-	
-
-	
+	padding-bottom: 2px;
+	padding-top: 2px;
 }
 
 #botonera_redes ul li a:hover {
 	background-color: #43AA8B;
 	filter: invert(1);
-	
-		
+
 }
 
 #botonera_redes ul li a:active {
 	color: #90BE6D;
 }
-
 
 
 

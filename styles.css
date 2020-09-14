@@ -45,24 +45,25 @@ header {
   
   }
 
+  /*BOTONERA */
+
 #botonera_principal {
 	width: 460px;
 	height: 40px;
-	margin-top: 2px;
-	margin-right: 0;
-	margin-left: 0;
-	margin-bottom: 0;
+	margin: 0px;
 	float: right;
 }
 
-.boton {
+/*.boton {
 	margin-left: 4px;
-}
+}*/
 
 #carrito {
-	height: 15px;
+	height: 10px;
 	filter: invert(1); 
 	margin-left: 25px;
+	margin-top: 1px;
+
 }
 
 #carrito a:hover {
@@ -102,6 +103,7 @@ ul li a:hover {
 	padding-top: 10px;
 	padding-right: 3px;
 	padding-left: 3px;
+	color: black;
 	
 
 
@@ -111,6 +113,7 @@ ul li a:active {
 	color: #90BE6D;
 }
 
+ /*BOTONERA */
 
 #contenido_index {
 	height: 730px;
@@ -376,48 +379,50 @@ h6 {
 	font-size: small;
 }
 
-#redes_icon {
-	width: 140px;
+#botonera_redes {
+	width: 150px;
 	height: 30px;
 	float: right;
 	filter: invert(1);
 	
 }
 
-#redes_icon img {
-	width: 25px;
-	margin-top: 2.5px;
-	box-sizing: content-box;
+#botonera_redes img {
+	width: 20px;
+	margin-top: 5px;
+
 }
 
-#redes_icon ul {
+
+#botonera_redes ul {
 	display: inline;
 	
-	
 }
 
-#redes_icon ul li {
+#botonera_redes ul li {
 	display: inline-block;
-	height: 30px;
+	
 }
 	
-#redes_icon ul li a {
+#botonera_redes ul li a {
 	text-decoration: none;
-	margin-top: 0;
+	
 
+	
 }
 
-#redes_icon ul li a:hover {
+#botonera_redes ul li a:hover {
 	background-color: #43AA8B;
 	filter: invert(1);
-	padding: 10px 1px 0 1px;
-
 	
+		
 }
 
-#redes_icon ul li a:active {
+#botonera_redes ul li a:active {
 	color: #90BE6D;
 }
+
+
 
 
 

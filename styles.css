@@ -38,7 +38,6 @@ header {
 	height: 50px;
 	background-color: #577590;
 
-
 }
 
 #marca {
@@ -65,6 +64,7 @@ header {
 	height: 40px;
 	margin: 0px;
 	float: right;
+
 }
 
 /*.boton {
@@ -84,6 +84,7 @@ header {
 	padding-bottom: 1px;
 	background-color: #43AA8B;
 	filter: invert(1);
+
 }
 
 
@@ -97,7 +98,6 @@ ul {
 ul li {
 	display: inline-block;
 
-
 }
 
 ul li a {
@@ -106,7 +106,6 @@ ul li a {
 	color: white;
 	padding-right: 3px;
 	padding-left: 3px;
-
 	
 }
 
@@ -118,8 +117,6 @@ ul li a:hover {
 	padding-left: 3px;
 	color: black;
 	
-
-
 }
 
 ul li a:active {
@@ -142,7 +139,8 @@ ul li a:active {
 	box-shadow:  0.1px 0.5px 5px grey;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 150px;
+	margin-top: 25px;
+	margin-bottom: 50px;
 
 }
 
@@ -177,7 +175,7 @@ ul li a:active {
 }
 
 #acerca {
-	margin-top: 25px;
+	margin-top: 100px;
 }
 
  /******* fin productos ****/
@@ -278,8 +276,8 @@ input {
 	border-radius: 2px;
 	box-shadow:  0.1px 0.3px 5px grey;
 	-webkit-animation-name: logo_se_mueve;
-   	-webkit-animation-duration: 10s;
-   	-webkit-animation-iteration-count: 1;
+   	-webkit-animation-duration: 6s;
+   	-webkit-animation-iteration-count: 2;
   	-webkit-animation-direction: alternate;
     position:relative;
 	
@@ -513,6 +511,488 @@ footer {
 #botonera_redes ul li a:active {
 	color: #90BE6D;
 }
+
+/**************************** comienzo media 600px 1023px *******************************/
+ 
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+	 header,section, footer { width: 580;
+
+	 }
+
+header {
+	height: 40px;
+	background-color: #577590;
+
+}
+
+#marca {
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+	
+
+.img_logo {
+   width: 120px;
+   margin-left: 5px;
+   color: white;
+   filter: invert(1);
+  
+  }
+
+  /*BOTONERA */
+
+#botonera_principal {
+	width: 460px;
+	height: 20px;
+	margin-left: 90px;
+	margin-bottom: 10px;
+	float: left;
+
+}
+
+/*.boton {
+	margin-left: 4px;
+}*/
+
+#carrito {
+	height: 10px;
+	filter: invert(1); 
+	margin-left: 25px;
+	margin-top: 1px;
+
+}
+
+#carrito a:hover {
+	padding-top: 20px;
+	padding-bottom: 1px;
+	background-color: #43AA8B;
+	filter: invert(1);
+
+}
+
+
+ul {
+	display: inline;
+	list-style-type: none;
+
+}
+
+
+ul li {
+	display: inline-block;
+
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 16px;
+	color: white;
+	padding-right: 3px;
+	padding-left: 3px;
+	
+}
+
+ul li a:hover {
+	background-color: #43AA8B;
+	border-radius: 4px;
+	padding-top: 10px;
+	padding-right: 3px;
+	padding-left: 3px;
+	color: black;
+	
+}
+
+ul li a:active {
+	color: #90BE6D;
+}
+
+/************* section productos ***********/
+
+#productos {
+	height: 730px;
+	background-color: #F0F9F7;
+	
+}
+
+.container_prod {
+	background-color: #F0F9F7;
+	width: 300px;
+	height: 230px;
+	border-radius: 3px;
+	box-shadow:  0.1px 0.5px 5px grey;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+
+}
+
+
+
+#home_ed {
+	background-image: url(images/eschome.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position: center;
+	float: left;
+	
+}
+
+#agiles {
+	background-image:url(images/mansemana.png);
+	background-size: 500px;
+	background-position: center;
+	float: left;
+	margin-left: 30px;
+	
+
+}
+
+#scrum {
+	background-image:url(images/manbackx7.png);
+	background-size: 500px;
+	background-position: center;
+	float: right;
+	margin-right: 10px;
+
+}
+
+#acerca {
+	margin-top: 100px;
+}
+
+ /******* fin productos ****/
+
+#contenido_index {
+	height: 730px;
+	background-color: #F0F9F7;
+}
+
+
+#contenido_video {
+	height: 730px;
+	background-color: #F0F9F7;
+}
+
+
+#vid_home {
+	width: 660px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 100px;
+	border: solid 1px #577590;
+	border-radius: 10px;
+	object-fit: contain;
+
+}
+
+
+#banner_principal {
+	width: 640px;
+	height: 230px;
+	background-image: url("images/bannerscrum.png");
+	background-position: center;
+	background-size: cover; 
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+}
+
+
+#formu_news {
+	display: none;
+
+}
+
+/*.boton_envio {
+	width: 80px;
+	background-color: #90BE6D;
+	color: black;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: medium;
+	font-weight: bolder;
+
+}
+
+.boton_envio:active {
+	background-color: #43AA8B;
+}
+
+p {
+	text-align: justify-all;
+	margin-left: 16px;
+	margin-right: 25px;
+	font-size: large;
+}
+
+input {
+	width: 260px;
+	margin-left: 10px;
+	margin-right: 25px;
+	padding: 2px;
+	border-radius: 4px;
+}*/
+
+#msj_bienvenida {
+	width: 500px;
+	height: 35px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 16px;
+	font-size: 17px;
+	line-height: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 2px;
+	box-shadow:  0.1px 0.3px 5px grey;
+	-webkit-animation-name: logo_se_mueve;
+   	-webkit-animation-duration: 6s;
+   	-webkit-animation-iteration-count: 2;
+  	-webkit-animation-direction: alternate;
+    position:relative;
+	
+}
+	
+
+@-webkit-keyframes 'logo_se_mueve' {
+   from {
+      left: 0px;
+	  	width: 500px;
+		opacity: 0;
+
+   }
+   
+   to {
+      left: 0px;
+      width: 500px;
+	  opacity: 1;
+
+   }
+}
+
+/************ Cajas ******************/
+
+.container_caja {
+	background-color: #F0F9F7;
+	width: 295px;
+	height: 200px;
+	border-radius: 3px;
+	box-shadow:  0.1px 0.5px 5px grey;
+}
+
+.detalle_h3 {
+	text-transform: uppercase; 
+	font-size: bold;
+	text-align: center;
+	background-color: rgba(255,255,255,0.5);
+	box-sizing: border-box;
+	border-radius: 10px;
+
+}
+
+#img_promos { 
+	margin-left: 10px;
+	margin-top: 15px;
+	float: left;
+	background-image: url(images/6.png);
+
+}
+
+#txt_promos {
+	width: 100px;
+	height: 50px;
+	float: right;
+	line-height: 50px;
+	margin-top: 80px;
+	margin-right: 50px; 
+}
+
+
+#img_productos {
+	margin-left: 30px;
+	margin-top: 15px;
+	float: left;
+	background-image: url(images/2.png);
+}
+
+#txt_productos {
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+	margin-top: 20px; 
+}
+
+#img_nosotros {
+	margin-left: 10px;
+	margin-top: 15px;
+	margin-right: 10px;
+	float: right;
+	background-image: url(images/1.png);
+
+}
+
+#txt_nosotros {
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-top: 130px;
+	margin-left: 20px; 
+}
+
+#img_medios_pago { 
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+	background-image: url(images/4.png);
+
+}
+
+#txt_pago {
+	width: 100px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 120px;  
+}
+
+
+#img_medios_envio {
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+	background-image: url(images/5.png);
+
+}
+
+#txt_envio {
+	width: 100px;
+	height: 50px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#img_contacto {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	background-image: url(images/3.png);
+
+}
+
+#txt_contacto {
+	width: 100px;
+	height: 50px;
+	float: right;
+	margin-top: 80px;
+	margin-right: 10px;
+	line-height: 50px;
+
+}
+
+/********** FOOTER *******************/
+
+
+
+footer {
+	height: 40px;
+	background-color: #577590;
+
+}
+
+
+
+#logo_chico /*con bajada*/{
+	
+	width: 280px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+	filter: invert(1);
+
+}
+
+#logo_peque {
+	width: 35%;
+	float: left;
+	margin-top: 10px;
+}
+
+#logo_chico p {
+	float: left;
+	font-weight: bold;
+	font-size: xx-small;
+	margin-left: 10px;
+	margin-top: 23px;
+	
+	
+}
+
+#direccion {
+	width: 195px;
+	height: 30px;
+	float: left;
+	margin-left: 150px;
+	margin-top: 27px;
+	color: white;
+	font-size: xx-small;
+}
+
+#botonera_redes {
+	width: 150px;
+	height: 40px;
+	float: right;
+	filter: invert(1);
+	margin: 0;
+	padding: 0;
+	
+	
+}
+
+#botonera_redes img {
+	width: 25px;
+	margin-top: 8px;
+	padding: auto;
+	vertical-align: bottom;
+}
+
+#botonera_redes ul {
+	display: inline;
+
+}
+
+#botonera_redes ul li {
+	display: inline-block;
+	
+}
+	
+#botonera_redes ul li a {
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#botonera_redes ul li a:hover {
+	background-color: #43AA8B;
+	filter: invert(1);
+
+}
+
+#botonera_redes ul li a:active {
+	color: #90BE6D;
+}
+
+}
+
+/************************* fin media 600px 1023px *************************************/
+
 
 
 

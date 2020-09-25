@@ -174,9 +174,14 @@ ul li a:active {
 
 }
 
-#acerca {
+/*#acerca {
 	margin-top: 100px;
 }
+*/
+article {
+	line-height: 35px;
+}
+
 
  /******* fin productos ****/
 
@@ -218,7 +223,6 @@ ul li a:active {
 }
 
 
-/* eventualmente un login para mayoristas, tambien? */
 #formu_news {
 	width: 290px;
 	height: 230px;
@@ -522,14 +526,11 @@ header,section, footer {
 
 	 }
 
-
-
 #marca {
 	width: 100px;
 	
 }
 	
-
 .img_logo {
    width: 100px;
    margin-top: 10px;  
@@ -564,93 +565,59 @@ ul li a {
 
 #productos {
 	height: 730px;
-	background-color: #F0F9F7;
-	
 }
 
 .container_prod {
-	background-color: #F0F9F7;
-	width: 300px;
-	height: 230px;
-	border-radius: 3px;
-	box-shadow:  0.1px 0.5px 5px grey;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 25px;
-	margin-bottom: 50px;
+	width: 180px;
+	height: 180px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 
 }
 
-
-
 #home_ed {
-	background-image: url(images/eschome.png);
-	background-repeat: no-repeat;
-	background-size: 500px;
-	background-position: center;
-	float: left;
-	
+	background-size: 250px;
+		
 }
 
 #agiles {
-	background-image:url(images/mansemana.png);
-	background-size: 500px;
-	background-position: center;
-	float: left;
-	margin-left: 30px;
+	background-size: 250px;
+	margin-left: 20px;
 	
-
 }
 
 #scrum {
-	background-image:url(images/manbackx7.png);
-	background-size: 500px;
-	background-position: center;
-	float: right;
-	margin-right: 10px;
+	background-size: 250px;
+	margin-right: 0px;
 
 }
 
-#acerca {
+/*#acerca {
 	margin-top: 100px;
 }
+*/
+article {
+	line-height: 35px;
+}
+
 
  /******* fin productos ****/
 
-#contenido_index {
-	height: 730px;
-	background-color: #F0F9F7;
-}
-
-
-#contenido_video {
-	height: 730px;
-	background-color: #F0F9F7;
-}
-
 
 #vid_home {
-	width: 660px;
-	margin-left: 150px;
-	margin-right: 150px;
-	margin-top: 100px;
-	border: solid 1px #577590;
-	border-radius: 10px;
-	object-fit: contain;
-
+	width: 480px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 150px;
+	
 }
 
 
 #banner_principal {
-	width: 640px;
-	height: 230px;
-	background-image: url("images/bannerscrum.png");
-	background-position: center;
-	background-size: cover; 
-	float: left;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	margin-left: 10px;
+	width: 580px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 0px;
 
 }
 
@@ -660,141 +627,19 @@ ul li a {
 
 }
 
-/*.boton_envio {
-	width: 80px;
-	background-color: #90BE6D;
-	color: black;
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: medium;
-	font-weight: bolder;
-
-}
-
-.boton_envio:active {
-	background-color: #43AA8B;
-}
-
-p {
-	text-align: justify-all;
-	margin-left: 16px;
-	margin-right: 25px;
-	font-size: large;
-}
-
-input {
-	width: 260px;
-	margin-left: 10px;
-	margin-right: 25px;
-	padding: 2px;
-	border-radius: 4px;
-}*/
-
-#msj_bienvenida {
-	width: 500px;
-	height: 35px;
-	clear: both;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 16px;
-	font-size: 17px;
-	line-height: 40px;
-	text-align: center;
-	text-transform: uppercase;
-	border-radius: 2px;
-	box-shadow:  0.1px 0.3px 5px grey;
-	-webkit-animation-name: logo_se_mueve;
-   	-webkit-animation-duration: 6s;
-   	-webkit-animation-iteration-count: 2;
-  	-webkit-animation-direction: alternate;
-    position:relative;
-	
-}
-	
-
-@-webkit-keyframes 'logo_se_mueve' {
-   from {
-      left: 0px;
-	  	width: 500px;
-		opacity: 0;
-
-   }
-   
-   to {
-      left: 0px;
-      width: 500px;
-	  opacity: 1;
-
-   }
-}
-
 /************ Cajas ******************/
 
 .container_caja {
-	background-color: #F0F9F7;
-	width: 295px;
-	height: 200px;
-	border-radius: 3px;
-	box-shadow:  0.1px 0.5px 5px grey;
-}
-
-.detalle_h3 {
-	text-transform: uppercase; 
-	font-size: bold;
-	text-align: center;
-	background-color: rgba(255,255,255,0.5);
-	box-sizing: border-box;
-	border-radius: 10px;
-
-}
-
-#img_promos { 
-	margin-left: 10px;
-	margin-top: 15px;
-	float: left;
-	background-image: url(images/6.png);
-
-}
-
-#txt_promos {
-	width: 100px;
-	height: 50px;
-	float: right;
-	line-height: 50px;
-	margin-top: 80px;
-	margin-right: 50px; 
+	width: 265px;
+	height: 170px;
+	
 }
 
 
-#img_productos {
-	margin-left: 30px;
-	margin-top: 15px;
-	float: left;
-	background-image: url(images/2.png);
-}
-
-#txt_productos {
-	width: 150px;
-	height: 50px;
-	line-height: 50px;
-	margin-left: 20px;
-	margin-top: 20px; 
-}
-
-#img_nosotros {
-	margin-left: 10px;
-	margin-top: 15px;
-	margin-right: 10px;
-	float: right;
-	background-image: url(images/1.png);
-
-}
 
 #txt_nosotros {
-	width: 100px;
-	height: 50px;
-	float: left;
-	margin-top: 130px;
-	margin-left: 20px; 
+	margin-top: 90px;
+	
 }
 
 #img_medios_pago { 
@@ -814,138 +659,91 @@ input {
 
 
 #img_medios_envio {
-	margin-left: 30px;
-	margin-top: 10px;
-	float: left;
-	background-image: url(images/5.png);
-
-}
-
-#txt_envio {
-	width: 100px;
-	height: 50px;
-	float: left;
-	margin-top: 30px;
-	margin-left: 20px;
-}
-
-#img_contacto {
 	margin-left: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-	float: right;
-	background-image: url(images/3.png);
-
+	
 }
 
-#txt_contacto {
-	width: 100px;
-	height: 50px;
-	float: right;
-	margin-top: 80px;
-	margin-right: 10px;
-	line-height: 50px;
 
-}
 
 /********** FOOTER *******************/
 
 
 
 footer {
-	height: 40px;
-	background-color: #577590;
-
+	height: 30px;
+	margin-top: 100px;
+	
 }
 
-
-
-#logo_chico /*con bajada*/{
+#logo_chico {
+	width: 200px;
 	
-	width: 280px;
-	float: left;
-	margin-top: 5px;
-	margin-left: 5px;
-	filter: invert(1);
-
 }
 
 #logo_peque {
-	width: 35%;
-	float: left;
-	margin-top: 10px;
+	width: 50px;
+		
 }
 
 #logo_chico p {
-	float: left;
 	font-weight: bold;
-	font-size: xx-small;
-	margin-left: 10px;
-	margin-top: 23px;
-	
-	
+	font-size: 8px;
+	margin-left: 5px;
+	margin-top: 15px;
+		
 }
 
 #direccion {
-	width: 195px;
-	height: 30px;
-	float: left;
-	margin-left: 150px;
-	margin-top: 27px;
-	color: white;
-	font-size: xx-small;
+	width: 130px;
+	margin-left: 30px;
+	margin-top: 19px;
+	
 }
 
 #botonera_redes {
 	width: 150px;
-	height: 40px;
-	float: right;
-	filter: invert(1);
-	margin: 0;
-	padding: 0;
+	height: 25px;
+	margin-left: 55px;
 	
 	
 }
 
 #botonera_redes img {
-	width: 25px;
-	margin-top: 8px;
-	padding: auto;
-	vertical-align: bottom;
-}
-
-#botonera_redes ul {
-	display: inline;
-
-}
-
-#botonera_redes ul li {
-	display: inline-block;
+	width: 20px;
+	margin-top: 6px;
 	
 }
+}/************************* fin media 600px 1023px *************************************/
+
+
+/**************************** comienzo menos de 600px  *******************************/
+
+/*@media all (max-width: 599px) {
+/*aca se usan porcentajes a todo ojo que al comienzo
+				
+				header,section, footer { width: 90%;
+					height: auto;
+
+				}
+
+#marca {
+	width: 100%
+	float: none;
+}
+
+#botonera ul li{
+	display: block;
+}
+
+#botonera ul li a {
+	width: 100%;
+	box-sizing: border-box; /*padding va de la mano de border box
+}
+
+#contenido {
 	
-#botonera_redes ul li a {
-	padding-bottom: 2px;
-	padding-top: 2px;
 }
-
-#botonera_redes ul li a:hover {
-	background-color: #43AA8B;
-	filter: invert(1);
-
-}
-
-#botonera_redes ul li a:active {
-	color: #90BE6D;
-}
-
-}
-
-/************************* fin media 600px 1023px *************************************/
-
-
-
-
+} fin media menos de 600px **********************************/
 
 
 

@@ -556,7 +556,7 @@ header,section, footer {
 
 
 ul li a {
-	font-size: 13px;
+	font-size: 14px;
 		
 }
 
@@ -716,86 +716,52 @@ footer {
 }/************************* fin media 600px 1023px *************************************/
 
 
+
+
 /**************************** comienzo menos de 600px  *******************************/
 
 @media all and (max-width: 599px) {
 
-	header,section, footer { 
-		width: 90%;
-		height: auto;
+header, section, footer { 
+	width: 90%;
+	height: auto;
 }
-
-/*#marca {
-	width: 100%;
-	float: none;
-}
-
-#botonera ul li {
-	display: block;
-}
-
-#botonera ul li a {
-	width: 100%;
-	box-sizing: border-box; /*padding va de la mano de border box*/
 
 header {
 	width: 100%;
-	height: 50px;
-	background-color: #577590;
-
+	height: 30px;
+	
 }
 
 #marca {
-	width: 35%;
+	width: 25%;
 	float: none;
 }
-	
 
 .img_logo {
    width: 85%;
-   margin-left: 5px;
-   color: white;
-   filter: invert(1);
-  
-  }
+   margin-top: 2px;  
+   margin-left: 180px;
+ }
 
   /*BOTONERA */
 
 #botonera_principal {
-	width: 460px;
-	height: 40px;
-	margin: 0px;
-	float: right;
+	width: 100%;
+	height: auto;
+	background-color: #577590;
 
 }
 
-/*.boton {
-	margin-left: 4px;
-}*/
-
 #carrito {
-	height: 10px;
-	filter: invert(1); 
-	margin-left: 25px;
-	margin-top: 1px;
-
+	width: 15%;
 }
 
 #carrito a:hover {
 	padding-top: 20px;
 	padding-bottom: 1px;
-	background-color: #43AA8B;
-	filter: invert(1);
-
+	box-sizing: border-box;
 }
-
-
-ul {
-	display: inline;
-	list-style-type: none;
-
-}
-
 
 ul li {
 	display: inline-block;
@@ -803,27 +769,18 @@ ul li {
 }
 
 ul li a {
-	text-decoration: none;
+	width: 100%;
 	font-size: 16px;
-	color: white;
-	padding-right: 3px;
-	padding-left: 3px;
-	
+		
 }
 
 ul li a:hover {
-	background-color: #43AA8B;
-	border-radius: 4px;
-	padding-top: 10px;
-	padding-right: 3px;
-	padding-left: 3px;
-	color: black;
-	
+	padding-bottom: 1px;
+	box-sizing: border-box;
+
 }
 
-ul li a:active {
-	color: #90BE6D;
-}
+
 
 /************* section productos ***********/
 
@@ -888,8 +845,7 @@ article {
  /******* fin productos ****/
 
 #contenido_index {
-	height: 730px;
-	background-color: #F0F9F7;
+	height: auto;
 }
 
 
@@ -926,47 +882,11 @@ article {
 
 
 #formu_news {
-	width: 290px;
-	height: 230px;
-	background-color: #577590;
-	color: #F0F9F7;
-	border-radius: 8px;
-	float:right;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	margin-right: 10px;
-	margin-left: 10px; 
+	display: none;
 
 }
 
-.boton_envio {
-	width: 80px;
-	background-color: #90BE6D;
-	color: black;
-	font-family: 'Reem Kufi', sans-serif;
-	font-size: medium;
-	font-weight: bolder;
 
-}
-
-.boton_envio:active {
-	background-color: #43AA8B;
-}
-
-p {
-	text-align: justify-all;
-	margin-left: 16px;
-	margin-right: 25px;
-	font-size: large;
-}
-
-input {
-	width: 260px;
-	margin-left: 10px;
-	margin-right: 25px;
-	padding: 2px;
-	border-radius: 4px;
-}
 
 #msj_bienvenida {
 	width: 500px;

@@ -516,99 +516,49 @@ footer {
  
 @media all and (min-width: 600px) and (max-width: 1023px) {
 
-	 header,section, footer { width: 580;
+
+header,section, footer { 
+	 	width: 580px;
 
 	 }
 
-header {
-	height: 40px;
-	background-color: #577590;
 
-}
 
 #marca {
-	width: 200px;
-	height: 40px;
-	float: left;
-	margin-top: 5px;
-	margin-right: 5px;
+	width: 100px;
+	
 }
 	
 
 .img_logo {
-   width: 120px;
-   margin-left: 5px;
-   color: white;
-   filter: invert(1);
-  
-  }
+   width: 100px;
+   margin-top: 10px;  
+ }
 
   /*BOTONERA */
 
 #botonera_principal {
-	width: 460px;
-	height: 20px;
-	margin-left: 90px;
-	margin-bottom: 10px;
-	float: left;
+	width: 400px;
+	height: 40px;
+	margin-left: 50px;
+	margin-bottom: 5px;
+	float: right;
 
 }
-
-/*.boton {
-	margin-left: 4px;
-}*/
 
 #carrito {
-	height: 10px;
-	filter: invert(1); 
-	margin-left: 25px;
-	margin-top: 1px;
-
+	height: 50%;
+	margin-left: 15px;
+	margin-top: 5px;
+	
 }
 
-#carrito a:hover {
-	padding-top: 20px;
-	padding-bottom: 1px;
-	background-color: #43AA8B;
-	filter: invert(1);
-
-}
-
-
-ul {
-	display: inline;
-	list-style-type: none;
-
-}
-
-
-ul li {
-	display: inline-block;
-
-}
 
 ul li a {
-	text-decoration: none;
-	font-size: 16px;
-	color: white;
-	padding-right: 3px;
-	padding-left: 3px;
-	
+	font-size: 13px;
+		
 }
 
-ul li a:hover {
-	background-color: #43AA8B;
-	border-radius: 4px;
-	padding-top: 10px;
-	padding-right: 3px;
-	padding-left: 3px;
-	color: black;
-	
-}
-
-ul li a:active {
-	color: #90BE6D;
-}
 
 /************* section productos ***********/
 

@@ -865,8 +865,8 @@ article {
 #msj_bienvenida {
 	width: 100%;
 	height: auto;
-	line-height: 20px;
-	font-size: 12px;	
+	line-height: 1.3em;
+	font-size: 0.8em;	
 }
 	
 
@@ -891,51 +891,46 @@ article {
 .container_caja {
 	width: 100%;
 	height: auto;
-	float: none;
+	background-repeat: no-repeat;
 
 }
 
 .detalle_h3 {
-	width: 100%
-	height: auto;
-
+	box-sizing: content-box;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #img_promos { 
-	margin-left: 0px;
-	clear: both;
-	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	
 	
 }
 
 #txt_promos {
 	float: right;
-	line-height: 30px;
-	margin-top: 20px;
-	margin-right: 10px; 
+	margin-top: 1.5em;
+	margin-right: 0.8em; 
 }
 
 #img_productos {
-	clear: both;
-	margin-left: 0px;
-	margin-top: 1em;
-	background-repeat: no-repeat;
-	
+	margin-left: auto;
+	margin-right: auto;
+		
 }
 
 #txt_productos {
-	float: none;
-	margin-top: 20px;
+	float: right;
+	margin-top: 1.1em;
 	margin-right: 0px; 
 
 }
 
 #img_nosotros {
-	margin-left: 50px;
-	margin-top: 1em;
-	clear: both;
-	background-repeat: no-repeat;
-	
+	margin-left: auto;
+	margin-right: auto;
+		
 }
 
 #txt_nosotros {
@@ -947,8 +942,6 @@ article {
 #img_medios_pago { 
 	margin-left: 0px;
 	margin-top: 1em;
-	clear: both;
-	background-repeat: no-repeat;
 	
 }
 
@@ -956,14 +949,14 @@ article {
 	float: right;
 	margin-top: 20px;
 	margin-right: 0px;  
+
 }
 
 
 #img_medios_envio {
 	margin-left: 0px;
 	margin-top: 1em;
-	clear: both;
-	background-repeat: no-repeat;
+		
 }
 
 #txt_envio {
@@ -973,10 +966,9 @@ article {
 }
 
 #img_contacto {
-	margin-left: 10px;
-	margin-top: 1em;
-	clear: both;
-	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 #txt_contacto {
@@ -991,10 +983,8 @@ article {
 
 
 footer {
+	height: auto;
 	
-	height: 40px;
-	
-
 }
 
 #logo_chico {
@@ -1013,15 +1003,14 @@ footer {
 
 #botonera_redes {
 	width: 100%;
+	background-color: #577590;
 	height: auto;
-	float: right;	
-}
-
-#botonera_redes img {
-	width: 25%;
-	margin-top: 0px;
+	text-align: left;	
+	filter: invert(0);
+	margin-top: 0.5em;
 
 }
+
 
 #botonera_redes ul {
 	display: inline;
@@ -1030,17 +1019,34 @@ footer {
 
 #botonera_redes ul li {
 	display: inline-block;
+	text-align: center;
 	
 }
 	
 #botonera_redes ul li a {
-	padding-bottom: 0px;
-	padding-top: 0px;
+	padding-top: 1.9em;
+	padding-bottom: 0.01em;
+	margin-left: 2em;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+#botonera_redes ul li a:hover {
+	filter: invert(1);
+	background-color: 
+}
+
+#botonera_redes img {
+	width: 2em;
+	padding: 0.5em;
+	margin-top: 0.1em;
+	margin: 0.25em;
+	box-sizing: content-box;
+	filter: invert(1);
 }
 
 
-
-}/********************* fin media menos de 600px **********************************/
+} /************* fin media menos de 600 ***********/
 
 
 

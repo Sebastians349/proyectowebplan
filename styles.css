@@ -734,44 +734,43 @@ header {
 }
 
 #marca {
-	width: 25%;
+	width: 100%;
+	height: auto;
 	float: none;
 }
 
 .img_logo {
-   width: 75%;
-   margin-top: 5px;  
-   margin-left: 150px;
- }
+   width: 20%;
+   margin-top: 0.25em;
+   margin-left: 0.25em;
+
+}
 
   /*BOTONERA */
 
 #botonera_principal {
 	width: 100%;
 	height: auto;
-	background-color: #577590;
+	float: none;
 
 }
 
-#carrito {
-	width: 1%;
-}
 
 #carrito a:hover {
-	padding-top: 20px;
-	padding-bottom: 1px;
+	padding: 5px;
 	box-sizing: border-box;
 }
 
 ul li {
-	display: inline-block;
+	display: block;
 
 }
 
 ul li a {
+	display: inline-block;
 	width: 100%;
 	font-size: 12px;
-		
+	display: 	
 }
 
 ul li a:hover {
@@ -886,7 +885,7 @@ article {
 
 .container_caja {
 	width: 100%;
-	height: 5em;
+	height: auto;
 	
 }
 
@@ -986,13 +985,11 @@ article {
 
 
 footer {
-	margin-top: 580px;
+	
 	height: 40px;
 	
 
 }
-
-
 
 #logo_chico {
 	display: none;

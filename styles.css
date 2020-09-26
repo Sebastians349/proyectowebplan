@@ -761,12 +761,14 @@ header {
 
 #botonera_principal ul li {
 	display: block;
+	margin: 1.5em;
 
 }
 
 #botonera_principal ul li a {
 	width: 100%;
 	box-sizing: border-box;
+	padding: 1.3em 3em;
 	text-align: center; 
 		
 }

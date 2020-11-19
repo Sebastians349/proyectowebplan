@@ -209,9 +209,9 @@ article {
 #banner_principal {
 	width: 640px;
 	height: 230px;
-	background-image: url("images/banner0.png");
+	/*background-image: url("images/banner0.png");
 	background-position: center;
-	background-size: cover; 
+	background-size: cover;*/ 
 	float: left;
 	margin-bottom: 10px;
 	margin-top: 10px;

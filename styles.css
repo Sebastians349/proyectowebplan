@@ -67,6 +67,11 @@ header {
 
 }
 
+#menu_categorias {
+	position: fixed;
+
+}
+
 
 #carrito {
 	height: 10px;

@@ -1,19 +1,20 @@
 /*
+*Al menos 2 funciones
+*Formulario validado
+*Uso de librería JQuery
 
--- (min-width: 600px) and (max-width:1023px)
--- (max-width:599px)
-- Estructura de maquetación acorde a las nuevas etiquetas semánticas de HTML5.
-- Al menos 3 secciones desarrolladas (de las planteadas en la estructura de maquetación)
-- Un formulario o video/audio
-- Al menos 3 atributos incorporados en CSS3
-- Al menos 1 Tipografía incorporada con el atributo @font-face (o API de Google).
-- Adaptación a diferentes dispositivos
-- Estar online (en el subdominio creado en el módulo 1)
+Forma de entrega:
+En el espacio de texto:
 
-#577590 queen blue
-#43AA8B zomp
-#90BE6D pistachio
-#F0F9F7 cream mint {Body}
+URL del sitio online
+Detalle de implementación de la consigna (cuáles son las secciones desarrolladas, 
+dónde está aplicado el DOM, dónde se utilizan los vectores y condicionales)
+En el espacio de archivo adjunto:
+
+Carpeta comprimida (.rar o .zip) con todos los archivos del sitio
+
+
+
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
@@ -67,8 +68,34 @@ header {
 
 }
 
+/*Esto arregla en grandes y medios 
+rompe en chicos*/
 #menu_categorias {
-	position: fixed;
+	position: absolute;
+	margin-left: 40px;	
+	margin-top: 8px;
+
+}
+
+.aparece {
+	background-color: #577590;
+	color: white;
+	border-radius: 4px;
+	padding:3px;
+	text-transform: uppercase;
+
+}
+
+.aparece a {
+	padding: auto;
+}
+
+
+.aparece a:hover {
+	background-color: #43AA8B;
+	border-radius: 4px;
+	padding-top: 10px;
+	color: black;
 
 }
 

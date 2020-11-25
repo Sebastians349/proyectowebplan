@@ -72,29 +72,36 @@ header {
 rompe en chicos*/
 #menu_categorias {
 	position: absolute;
-	margin-left: 40px;	
 	margin-top: 8px;
-
+	margin-left: 35px;
 }
 
+
 .aparece {
+	display: block;
+	position: relative;
+	width: 150px;
+	height: 35px;
 	background-color: #577590;
 	color: white;
+	text-align: center;
 	border-radius: 4px;
 	padding:3px;
 	text-transform: uppercase;
 
 }
 
-.aparece a {
-	padding: auto;
-}
-
+/*.aparece li a {
+	display: block;
+	width: 150px;
+	height: auto;
+	
+}*/
 
 .aparece a:hover {
 	background-color: #43AA8B;
+	text-align: center;
 	border-radius: 4px;
-	padding-top: 10px;
 	color: black;
 
 }
@@ -596,6 +603,20 @@ ul li a {
 		
 }
 
+#menu_categorias {
+	margin-top: 4px;
+	margin-left: 25px;
+}
+
+
+.aparece {
+	font-size: 14px;
+
+}
+
+
+
+
 
 /************* section productos ***********/
 
@@ -825,6 +846,26 @@ header {
 #botonera_principal #carrito  {
 	display: none;
 }
+
+#menu_categorias {
+	width: 100%;
+	height: auto;
+	margin-top: -15px;
+	margin-left: 30px;
+}
+
+
+.aparece {
+	width: 55%;
+	height: auto;
+	text-align: center;
+	padding: 6px;
+	box-sizing: content-box;
+}
+
+
+
+
 
 /************* section productos ***********/
 

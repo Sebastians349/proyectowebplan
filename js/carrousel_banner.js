@@ -17,11 +17,11 @@ var indice = 0;
 
 function actualizarBanner() {
 	indice++
-	if (indice.length) {
+	if (indice > 4) { //se puede usar el .lenght (ojo sintaxis)
 		indice = 0;
 	}
 	links.href = grupoBanners[indice][0];
 	imagenes.src = grupoBanners[indice][1];
 }
 
-setInterval (actualizarBanner, 3500);
+setInterval (actualizarBanner, 2500);

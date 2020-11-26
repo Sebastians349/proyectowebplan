@@ -88,6 +88,8 @@ rompe en chicos*/
 	border-radius: 4px;
 	padding:3px;
 	text-transform: uppercase;
+	border: white solid 0.1px;
+
 
 }
 
@@ -611,6 +613,8 @@ ul li a {
 
 .aparece {
 	font-size: 14px;
+		border: white solid 0.1px;
+
 
 }
 
@@ -861,6 +865,7 @@ header {
 	text-align: center;
 	padding: 6px;
 	box-sizing: content-box;
+	border: white solid 0.1px;
 }
 
 

@@ -630,6 +630,18 @@ ul li a {
 
 }
 
+/**********galeria *********/
+#galeria_img {
+	height: 460px;
+	text-align: center;
+	left: auto;
+	right: auto;
+
+}
+
+#galeria_img img {
+	width: 135px;
+}
 
 
 
@@ -880,7 +892,19 @@ header {
 	border: white solid 0.1px;
 }
 
+/**************galeria******************/
 
+#galeria_img {
+	height: 100%;
+	text-align: center;
+	left: auto;
+	right: auto;
+
+}
+
+#galeria_img img {
+	width: 35%;
+}
 
 
 

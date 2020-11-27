@@ -93,12 +93,6 @@ rompe en chicos*/
 
 }
 
-/*.aparece li a {
-	display: block;
-	width: 150px;
-	height: auto;
-	
-}*/
 
 .aparece a:hover {
 	background-color: #43AA8B;
@@ -160,6 +154,24 @@ ul li a:hover {
 ul li a:active {
 	color: #90BE6D;
 }
+
+/*********imagenes************/
+
+#galeria_img {
+	height: 600px;
+	text-align: center;
+	left: auto;
+	right: auto;
+
+}
+
+#galeria_img img {
+	width: 150px;
+}
+
+
+
+
 
 /************* section productos ***********/
 

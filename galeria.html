@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<div id="marca" ><img src="images/logotransOK.png" class="img_logo"></div>
+		<nav id="botonera_principal">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="#" onclick="mostrarLista('menu_categorias')">CATEGORIAS</a></li>	
+					<ul id="menu_categorias" style="display: none;">
+						<li class="aparece"><a href="productos.html">Home Edition</a></li>
+						<li class="aparece"><a href="productos.html">Scrum-Kanban</a></li>
+						<li class="aparece"><a href="productos.html">Agiles</a></li>
+					</ul>
+				<li><a href="productos.html">PRODUCTOS</a></li>
+				<li><a href="video.html">VIDEOS</a></li>
+				<li id="carrito"><a href="#"><img src="images/carrito.png" alt="carrito"/></a></li>
+			</ul>
+		</nav>
+	</header>
+	<footer>
+		
+		<div id="logo_chico">
+			<img id="logo_peque" src="images/logotransOK.png">
+			<p>Organizá tu día, organizá tu PLAN!</p>
+		</div>
+			
+			<adress id="direccion">Coghlan. CABA. Argentina</adress>
+		
+		<nav id="botonera_redes">
+			<ul>
+				<li><a href="https://www.facebook.com/organizatuplan/" target="blank"><img src="images/face11.png" alt="Facebook"></a>
+				</li>
+				<li><a href="https://www.instagram.com/organizatuplan/" target="blank"><img src="images/iconig.png" alt="Instagram"></a>
+				</li>
+				<li><a href="#"><img src="images/iconwp.png" alt="Whatsapp"></a>
+				</li>
+			</ul>
+		</nav>
+	</footer>
+<script type="text/javascript" src="js/lista_emergente.js"></script>
+</body>
+</html>

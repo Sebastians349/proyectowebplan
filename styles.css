@@ -155,18 +155,25 @@ ul li a:active {
 	color: #90BE6D;
 }
 
-/*********imagenes************/
+/*********GALERIA ************/
 
 #galeria_img {
-	height: 600px;
+	width: 650px;
+	height: 500px;
 	text-align: center;
-	left: auto;
+	left: 100px;
 	right: auto;
 
 }
 
 #galeria_img img {
+	margin-top: 45px;
+	height: auto;
 	width: 150px;
+	text-align: center;
+	left: auto;
+	right: auto;
+
 }
 
 

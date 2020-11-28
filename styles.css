@@ -157,12 +157,27 @@ ul li a:active {
 
 /*********GALERIA ************/
 
+h2 {
+	text-align: center;
+	color: white;
+	background-color: #7391AB;
+	width: 250px;
+	padding: 10px;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	border-radius: 0 20px 20px 0;
+
+}
+
 #galeria_img {
 	width: 650px;
-	height: 500px;
+	height: auto;
 	text-align: center;
-	left: 100px;
-	right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	
 
 }
 
@@ -171,9 +186,36 @@ ul li a:active {
 	height: auto;
 	width: 150px;
 	text-align: center;
-	left: auto;
-	right: auto;
+	margin-left: 5px;
+	box-shadow: 0.1px 0.5px 5px grey;
 
+}
+
+button {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	width: 150px;
+	height: 50px;
+	background-color: #43AA8B;
+	border: dotted #90BE6D;
+	border-radius: 4px;
+}
+
+button a {
+	color: white;
+	font-size: larger;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+
+button a:hover {
+	background-color: #90BE6D;
+	text-align: center;
+	padding: 15px 50px;
+	border-radius: 4px;
+	margin-right: 10px;
+	color: black;
 }
 
 
@@ -181,6 +223,8 @@ ul li a:active {
 
 
 /************* section productos ***********/
+
+
 
 #productos {
 	height: auto;
@@ -580,7 +624,7 @@ footer {
 	color: #90BE6D;
 }
 
-/**************** comienzo media 600px 1023px *******************************/
+/**************** comienzo media 600px  a 1023px *******************************/
  
 @media all and (min-width: 600px) and (max-width: 1023px) {
 
@@ -637,19 +681,34 @@ ul li a {
 
 }
 
-/**********galeria *********/
-#galeria_img {
-	height: 460px;
-	text-align: center;
-	left: auto;
-	right: auto;
+/********** galeria *********/
 
+
+h2 {
+	width: 200px;
+	padding: 8px;
+	margin-left: 40px;
+	margin-top: 25px;
+
+}
+
+
+#galeria_img {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #galeria_img img {
+	text-align: center;
+	margin-left: 5px;
+	margin-right: auto;
 	width: 135px;
 }
 
+button {
+	margin-bottom: 5px;
+}
 
 
 
@@ -901,6 +960,70 @@ header {
 
 /**************galeria******************/
 
+/*h2 {
+	text-align: center;
+	color: white;
+	background-color: #7391AB;
+	width: 250px;
+	padding: 10px;
+	margin-left: 0;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	border-radius: 0 20px 20px 0;
+
+}
+
+#galeria_img {
+	width: 650px;
+	height: auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+
+#galeria_img img {
+	margin-top: 45px;
+	height: auto;
+	width: 150px;
+	text-align: center;
+	margin-left: 5px;
+	box-shadow: 0.1px 0.5px 5px grey;
+
+}
+
+button {
+	margin-top: 30px;
+	margin-bottom: 50px;
+	width: 150px;
+	height: 50px;
+	background-color: #43AA8B;
+	border: dotted #90BE6D;
+	border-radius: 4px;
+}
+
+button a {
+	color: white;
+	font-size: larger;
+	font-weight: bold;
+	text-decoration: none;
+
+} */
+
+h2 {
+	
+	width: 200px;
+	padding: 8px;
+	margin-left: 25px;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 0;
+	border-radius: 0 20px 20px 0;
+
+}
+
 #galeria_img {
 	height: auto;
 	text-align: center;
@@ -910,7 +1033,7 @@ header {
 }
 
 #galeria_img img {
-	width: 25%;
+	width: 20%;
 }
 
 

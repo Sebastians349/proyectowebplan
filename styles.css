@@ -155,7 +155,7 @@ ul li a:active {
 	color: #90BE6D;
 }
 
-/*********GALERIA ************/
+/*****************GALERIA ************/
 
 h2 {
 	text-align: center;
@@ -168,6 +168,7 @@ h2 {
 	margin-top: 50px;
 	margin-bottom: 0;
 	border-radius: 0 20px 20px 0;
+	font-weight: lighter;
 
 }
 
@@ -197,24 +198,23 @@ button {
 	width: 150px;
 	height: 50px;
 	background-color: #43AA8B;
-	border: dotted #90BE6D;
+	border: 0.1px solid #90BE6D;
 	border-radius: 4px;
 }
 
 button a {
+
 	color: white;
 	font-size: larger;
-	font-weight: bold;
+	font-weight: bolder;
 	text-decoration: none;
 
 }
 
 button a:hover {
 	background-color: #90BE6D;
-	text-align: center;
-	padding: 15px 50px;
+	padding: 18px 50px ;
 	border-radius: 4px;
-	margin-right: 10px;
 	color: black;
 }
 
@@ -676,7 +676,7 @@ ul li a {
 
 .aparece {
 	font-size: 14px;
-		border: white solid 0.1px;
+	border: white solid 0.1px;
 
 
 }
@@ -953,87 +953,53 @@ header {
 	width: 55%;
 	height: auto;
 	text-align: center;
-	padding: 6px;
+	padding: 5px 2px;
 	box-sizing: content-box;
 	border: white solid 0.1px;
 }
 
+.aparece a:hover {
+
+}
+
 /**************galeria******************/
 
-/*h2 {
-	text-align: center;
-	color: white;
-	background-color: #7391AB;
-	width: 250px;
-	padding: 10px;
-	margin-left: 0;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 0;
-	border-radius: 0 20px 20px 0;
-
-}
-
-#galeria_img {
-	width: 650px;
-	height: auto;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	
-
-}
-
-#galeria_img img {
-	margin-top: 45px;
-	height: auto;
-	width: 150px;
-	text-align: center;
-	margin-left: 5px;
-	box-shadow: 0.1px 0.5px 5px grey;
-
-}
-
-button {
-	margin-top: 30px;
-	margin-bottom: 50px;
-	width: 150px;
-	height: 50px;
-	background-color: #43AA8B;
-	border: dotted #90BE6D;
-	border-radius: 4px;
-}
-
-button a {
-	color: white;
-	font-size: larger;
-	font-weight: bold;
-	text-decoration: none;
-
-} */
+/**/
 
 h2 {
 	
 	width: 200px;
 	padding: 8px;
 	margin-left: 25px;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 0;
-	border-radius: 0 20px 20px 0;
+	margin-top: 15px;
 
 }
 
+#wrapper {
+	text-align: center;
+	margin-left: 45px;
+	margin-right: auto;
+}
+
 #galeria_img {
+	width: 85%;
 	height: auto;
 	text-align: center;
-	left: auto;
-	right: auto;
+	margin-left: 0px;
+	margin-right: 0px;
 
 }
 
 #galeria_img img {
 	width: 20%;
+	margin-left: 10px;
+}
+
+button {
+	text-align: center;
+	margin-left: 55px;
+	margin-right: auto;
+
 }
 
 

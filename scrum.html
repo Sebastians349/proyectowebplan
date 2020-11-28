@@ -3,9 +3,72 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>@organizatuplan</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="icon" type="image/png" href="images/favicon-pistacho.png" sizes="64x64">
+	<link rel="stylesheet" type="text/css" href="lightbox.css">
 </head>
 <body>
+	<header>
+		<div id="marca" ><img src="images/logotransOK.png" class="img_logo"></div>
+		<nav id="botonera_principal">
+			<ul>
+				<li><a href="index.html">INICIO</a></li>
+				<li><a href="#" onmouseenter="mostrarLista('menu_categorias')" onclick="mostrarLista('menu_categorias')">CATEGORIAS</a></li>	
+					<ul id="menu_categorias" style="display: none;">
+						<li class="aparece"><a href="home_ed.html">Home Edition</a></li>
+						<li class="aparece"><a href="scrum.html">Scrum-Kanban</a></li>
+						<li class="aparece"><a href="agiles.html">Agiles</a></li>
+					</ul>
+				<li><a href="productos.html">PRODUCTOS</a></li>
+				<li><a href="video.html">VIDEOS</a></li>
+				<li id="carrito"><a href="#"><img src="images/carrito.png" alt="carrito"/></a></li>
+			</ul>
+		</nav>
+	</header>
+
+		
+	<div id="galeria_img">
+
+		<h2 class="categoria_iman">Scrum/Kanban</h2>
+			<div id="wrapper">
+				<a href="images/escscrum.png" data-lightbox="muestra" data-title="Planner magnético para Scrum-Kanban" data-alt=""><img src="images/escscrum.png"></a>
+				<a href="images/manbackx7.png" data-lightbox="muestra" data-title="Planner magnético para Scrum-Kanban" data-alt=""><img src="images/manbackx7.png"></a>
+				<a href="images/manmix.png" data-lightbox="muestra" data-title="Planner magnético para Scrum-Kanban" data-alt=""><img src="images/manmix.png"></a>
+				<a href="images/backlogx3.png" data-lightbox="muestra" data-title="Columnas Scrum-Kanban" data-alt=""><img src="images/backlogx3.png"></a>
+				<a href="images/st8.png" data-lightbox="muestra" data-title="User stories imantadas" data-alt=""><img src="images/st8.png"></a>
+				<a href="images/cajscrump.png" data-lightbox="muestra" data-title="Packaging Scrum-Kanban" data-alt=""><img src="images/cajscrump.png"></a>
+				<a href="images/caj_scrum.png" data-lightbox="muestra" data-title="Packaging Scrum-Kanban" data-alt=""><img src="images/caj_scrum.png"></a>
+				<a href="images/prod_iman.png" data-lightbox="muestra" data-title="Detalle productos" data-alt=""><img src="images/prod_iman.png"></a>
+			</div>
+
+		<button><a href="https://organizatuplan.com.ar/scrum-kanban/" target="new">SHOP</a></button>
+		
+		
+	</div>
 	
+	<footer>
+		
+		<div id="logo_chico">
+			<img id="logo_peque" src="images/logotransOK.png">
+			<p>Organizá tu día, organizá tu PLAN!</p>
+		</div>
+			
+			<adress id="direccion">Coghlan. CABA. Argentina</adress>
+		
+		<nav id="botonera_redes">
+			<ul>
+				<li><a href="https://www.facebook.com/organizatuplan/" target="blank"><img src="images/face11.png" alt="Facebook"></a>
+				</li>
+				<li><a href="https://www.instagram.com/organizatuplan/" target="blank"><img src="images/iconig.png" alt="Instagram"></a>
+				</li>
+				<li><a href="#"><img src="images/iconwp.png" alt="Whatsapp"></a>
+				</li>
+			</ul>
+		</nav>
+	</footer>
+<!-- <script type="text/javascript" src="js/lightbox.js"></script>
+ --><script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+<script type="text/javascript" src="js/lista_emergente.js"></script>
 </body>
 </html>
